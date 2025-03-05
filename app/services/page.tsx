@@ -2,7 +2,7 @@
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 17:42:02
  * @LastEditors: jxy mr_jxy_steven@163.com
- * @LastEditTime: 2025-03-05 14:18:20
+ * @LastEditTime: 2025-03-05 22:32:13
  * @FilePath: /blxdropship/app/services/page.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -44,14 +44,12 @@ export default function Services() {
   return (
     <div className='min-h-screen'>
       <Service />
-      <div className='py-20 bg-gradient-to-r from-blue-50 to-blue-100'>
+      <div className='py-20'>
         <div className='container px-4 mx-auto'>
-          <h1 className='mb-6 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 md:text-5xl'>
-            Our Services
+          <h1 className='mt-[6] mb-6 text-4xl font-bold text-black bg-clip-text  md:text-5xl text-center'>
+          It’s Time to Start Your Business
           </h1>
-          <p className='max-w-3xl text-xl text-gray-700'>
-            Comprehensive dropshipping solutions for your business
-          </p>
+          <p className='text-center'>Trusting professional and reliable suppliers can save you more time and money.</p>
         </div>
       </div>
 
