@@ -1,8 +1,8 @@
 /*
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 17:42:06
- * @LastEditors: caihongtai caihongtai
- * @LastEditTime: 2025-03-04 15:30:15
+ * @LastEditors: jxy mr_jxy_steven@163.com
+ * @LastEditTime: 2025-03-05 14:02:07
  * @FilePath: /blxdropship/app/contact/page.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -26,7 +26,7 @@ export default function Contact() {
         <div className='grid gap-8 md:grid-cols-2'>
           <div className='max-w-2xl mx-auto'>
             <form className='space-y-8 bg-white p-8 rounded-xl shadow-lg'>
-              <div>
+              <div style={{ marginBottom: '10px' }}>
                 <label
                   htmlFor='name'
                   className='block text-sm font-medium text-gray-700 mb-2'
@@ -40,7 +40,7 @@ export default function Contact() {
                   placeholder='Your name'
                 />
               </div>
-              <div>
+              <div style={{ marginBottom: '10px' }}>
                 <label
                   htmlFor='email'
                   className='block text-sm font-medium text-gray-700 mb-2'
@@ -54,7 +54,7 @@ export default function Contact() {
                   placeholder='your@email.com'
                 />
               </div>
-              <div>
+              <div style={{ marginBottom: '10px' }}>
                 <label
                   htmlFor='message'
                   className='block text-sm font-medium text-gray-700 mb-2'
@@ -68,7 +68,9 @@ export default function Contact() {
                   placeholder='Your message'
                 ></textarea>
               </div>
+              
               <button
+              style={{ marginBottom: '10px' }}
                 type='submit'
                 className='w-full bg-blue-600 text-white py-4 rounded-lg hover:bg-blue-700 transition-colors font-medium text-lg'
               >
@@ -76,14 +78,16 @@ export default function Contact() {
               </button>
             </form>
           </div>
-        </div>
-        <div className='grid gap-8 md:grid-cols-2'>
+
+          <div className='grid gap-8 md:grid-cols-2'>
           <div className='space-y-6'>
-            <h2 className='mb-4 text-3xl font-bold text-gray-800'>
+            <h2 className='mb-4 text-3xl font-bold text-gray-800' >
               Our Commitment
             </h2>
           </div>
         </div>
+        </div>
+        
       </div>
     </div>
   )
