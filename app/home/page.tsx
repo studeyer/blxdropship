@@ -7,13 +7,13 @@
  * @Description: Home page component
  */
 import Hero from '@/components/Hero'
-import Services from '@/components/Services'
+import Homecard from '@/components/Homecard'
 
 export default function Home() {
   return (
     <div className='min-h-screen'>
       <Hero />
-      <Services />
+      <Homecard />
     </div>
   )
 }
