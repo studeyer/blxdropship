@@ -22,6 +22,13 @@
   background-repeat: no-repeat; /* 防止背景图片重复 */
 }
 
+.bg-body-img-company {
+  background-image: url('../../app/image/company里五张图/最顶上的图.png');
+  background-size: cover; /* 根据需要调整背景图片的大小 */
+  background-position: center; /* 根据需要调整背景图片的位置 */
+  background-repeat: no-repeat; /* 防止背景图片重复 */
+}
+
 .bg-body-img-contant {
   background-image: url('../../app/image/company里五张图/最顶上的图.png');
   background-size: cover; /* 根据需要调整背景图片的大小 */
