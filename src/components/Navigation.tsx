@@ -2,7 +2,7 @@
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 16:41:08
  * @LastEditors: caihongtai caihongtai
- * @LastEditTime: 2025-03-05 21:11:42
+ * @LastEditTime: 2025-03-05 21:51:07
  * @FilePath: /blxdropship/src/components/Navigation.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -10,7 +10,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
-
+import logo from '../../app/image/左上角logo/微信图片_20250126204613.png'
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -25,11 +25,11 @@ export default function Navigation() {
   return (
     <nav className='fixed z-50 w-full shadow-sm backdrop-blur-md bg-white/90'>
       <div className='container flex justify-between items-center px-4 py-4 mx-auto'>
-        <Link href='/home' className='flex items-center'>
+        <img src={logo.src} alt='logo' className='w-12 h-12' />
+        <Link href='/home' className='items-center'>
           {/* Logo placeholder */}
-          <div className='flex justify-center items-center w-48 h-12 font-bold text-white bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg'>
-            BLX Dropship
-          </div>
+          <div>BLX Dropship</div>
+          <span>Fast fulfillment</span>
         </Link>
 
         {/* 移动端菜单按钮 */}
