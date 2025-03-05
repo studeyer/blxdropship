@@ -1,12 +1,12 @@
 /*
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 17:42:02
- * @LastEditors: caihongtai caihongtai
- * @LastEditTime: 2025-03-04 14:08:34
+ * @LastEditors: jxy mr_jxy_steven@163.com
+ * @LastEditTime: 2025-03-05 12:31:14
  * @FilePath: /blxdropship/app/services/page.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
-import Hero from '@/components/Hero'
+import Service from '@/components/Service'
 
 export default function Services() {
   const servicesList = [
@@ -38,7 +38,7 @@ export default function Services() {
 
   return (
     <div className='min-h-screen'>
-      <Hero />
+      <Service />
       <div className='py-20 bg-gradient-to-r from-blue-50 to-blue-100'>
         <div className='container px-4 mx-auto'>
           <h1 className='mb-6 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 md:text-5xl'>

@@ -2,14 +2,14 @@
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 16:41:47
  * @LastEditors: jxy mr_jxy_steven@163.com
- * @LastEditTime: 2025-03-05 12:23:40
+ * @LastEditTime: 2025-03-05 12:34:00
  * @FilePath: /blxdropship/src/components/Hero.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import '@/styles/jxyStyles.css';
-export default function Hero() {
+export default function About() {
   return (
-    <section className='relative min-h-[600px] flex items-center bg-gradient-to-r from-blue-50 to-blue-100 bg-body-img-home'>
+    <section className='relative min-h-[600px] flex items-center bg-gradient-to-r from-blue-50 to-blue-100 bg-body-img-contant'>
       <div className='container relative z-10 px-4 mx-auto'>
         <div className='max-w-2xl'>
           <h1 className='mb-6 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800'>
