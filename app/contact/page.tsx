@@ -2,7 +2,7 @@
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 17:42:06
  * @LastEditors: jxy mr_jxy_steven@163.com
- * @LastEditTime: 2025-03-05 14:02:07
+ * @LastEditTime: 2025-03-05 17:30:30
  * @FilePath: /blxdropship/app/contact/page.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -11,21 +11,15 @@ export default function Contact() {
   return (
     <div className='min-h-screen'>
       <ContantTop />
-      <div className='bg-gradient-to-r from-blue-50 to-blue-100 py-20'>
-        <div className='container px-4 mx-auto'>
-          <h1 className='text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent'>
-            Contact Us
-          </h1>
-          <p className='text-xl text-gray-700 max-w-3xl'>
-            Get in touch with our team for any inquiries
-          </p>
-        </div>
-      </div>
+
 
       <div className='container px-4 py-16 mx-auto'>
         <div className='grid gap-8 md:grid-cols-2'>
-          <div className='max-w-2xl mx-auto'>
-            <form className='space-y-8 bg-white p-8 rounded-xl shadow-lg'>
+          <div className='max-w-3xl'>
+            <form className='space-y-8 bg-white p-8 '>
+              <h2 className='mb-4 text-3xl font-bold text-gray-800' >
+                We’re Ready, Let’s Talk.
+              </h2>
               <div style={{ marginBottom: '10px' }}>
                 <label
                   htmlFor='name'
@@ -63,31 +57,43 @@ export default function Contact() {
                 </label>
                 <textarea
                   id='message'
-                  rows={6}
+                  rows={4}
                   className='w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors'
                   placeholder='Your message'
                 ></textarea>
               </div>
-              
+
               <button
-              style={{ marginBottom: '10px' }}
+                style={{ marginBottom: '10px', width: '185px' }}
                 type='submit'
-                className='w-full bg-blue-600 text-white py-4 rounded-lg hover:bg-blue-700 transition-colors font-medium text-lg'
+                className='w-full bg-blue-600 text-white py-4 rounded-lg hover:bg-blue-700 transition-colors font-medium text-lg mx-auto'
+
               >
                 Send Message
               </button>
             </form>
           </div>
 
-          <div className='grid gap-8 md:grid-cols-2'>
-          <div className='space-y-6'>
-            <h2 className='mb-4 text-3xl font-bold text-gray-800' >
-              Our Commitment
-            </h2>
+          <div className='grid gap-8 md:grid-cols-1'>
+            <div className='space-y-6'>
+              <h2 className='text-3xl font-bold text-gray-800' style={{marginTop:'30px'}}>Contact Info</h2>
+              <div className='mb-4' style={{marginTop:'10px'}}>
+                <p className='text-xl font-medium text-gray-600 text-[#191919]'>Address</p>
+                <p className='text-base font-normal text-gray-500 text-[#404040]'>Huaihai Cross-border Trade Center, Quanshan District, Xuzhou, Jiangsu, China</p>
+              </div>
+              <div className='mb-4' style={{marginTop:'10px'}}>
+                <p className='text-xl font-medium text-gray-600 text-[#191919]'>Email</p>
+                <p className='text-base font-normal text-gray-500 text-[#404040]'>zhangfan3888@gmail.com</p>
+              </div>
+              <div className='mb-4' style={{marginTop:'10px'}}>
+                <p className='text-xl font-medium text-gray-600 text-[#191919]'>WhatsApp</p>
+                <p className='text-base font-normal text-gray-500 text-[#404040]'>+86 137 0522 6238</p>
+              </div>
+              <p className='text-xl font-medium text-gray-600 text-[#191919]'>Follow Us</p>
+            </div>
           </div>
         </div>
-        </div>
-        
+
       </div>
     </div>
   )
