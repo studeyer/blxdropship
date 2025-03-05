@@ -38,7 +38,7 @@ export default function RootLayout({
         <main>{children}</main>
         <footer className='footer-wrap'>
           <div className='container px-4 mx-auto text-center'>
-            <div>
+            <div className='mb-4'>
             Huaihai Cross-border Trade Center, Quanshan District, Xuzhou, Jiangsu, China | WhatsApp: +86 137 0522 6238 | Email: zhangfan3888@gmail.com
             </div>
             <p>Copyright © 2025 BLX Dropshipping</p>

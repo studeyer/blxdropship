@@ -2,7 +2,7 @@
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 16:41:12
  * @LastEditors: jxy mr_jxy_steven@163.com
- * @LastEditTime: 2025-03-05 15:04:33
+ * @LastEditTime: 2025-03-05 16:15:00
  * @FilePath: /blxdropship/src/components/Services.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -64,10 +64,10 @@ export default function Homecard() {
               <div className='mb-4 text-4xl'>
                 <img src={service.image.src} alt={service.title} />
               </div>
-              <h2 className='mb-4 text-2xl font-bold text-gray-800'>
+              <h2 className='text-[#191919] mb-4 text-xl font-bold text-gray-800 text-center'>
                 {service.title}
               </h2>
-              <p className='text-lg text-gray-600'>{service.description}</p>
+              <p className=' text-gray-600 text-center'>{service.description}</p>
             </div>
           ))}
         </div>
