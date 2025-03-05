@@ -2,11 +2,16 @@
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 17:42:02
  * @LastEditors: jxy mr_jxy_steven@163.com
- * @LastEditTime: 2025-03-05 12:31:14
+ * @LastEditTime: 2025-03-05 14:18:20
  * @FilePath: /blxdropship/app/services/page.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import Service from '@/components/Service'
+// 在组件文件的顶部引入图片
+import productSourcingImage from '../image/services图/左上.jpg'
+import qualityControlImage from '../image/services图/右上.jpg'
+import warehousingImage from '../image/services图/services四图左下.jpg'
+import fastShippingImage from '../image/services图/services四图右下.jpg'
 
 export default function Services() {
   const servicesList = [
@@ -14,27 +19,27 @@ export default function Services() {
       title: 'Product Sourcing',
       description:
         'We assign a dedicated account manager to each client, offering one-on-one service to ensure that every client’s needs are promptly addressed and resolved.',
-      image: '/images/services/product-sourcing.jpg',
+      image: productSourcingImage,
     },
     {
       title: 'Quality Control',
       description:
         'We strictly implement the quality control process and conduct strict inspections at every stage from procurement to shipment to ensure stable and reliable product quality.',
-      image: '/images/services/quality-control.jpg',
+      image: qualityControlImage,
     },
     {
       title: 'Warehousing',
       description:
         'We have an inventory warehouse management system that enables fast delivery of inventory products within 24 hours, shortening the delivery cycle.',
-      image: '/images/services/warehousing.jpg',
+      image: warehousingImage,
     },
     {
       title: 'Fast Shipping',
       description:
         'We offer comprehensive after-sales services and guarantee policies, ensuring that clients have no worries during the purchase and use process.',
-      image: '/images/services/fast-shipping.jpg',
+      image: fastShippingImage,
     },
-  ]
+  ];
 
   return (
     <div className='min-h-screen'>
@@ -58,7 +63,7 @@ export default function Services() {
               className='p-8 bg-white rounded-xl border border-gray-100 shadow-lg transition-all hover:shadow-xl'
             >
               <div className='mb-4 text-4xl'>
-                <img src={service.image} alt={service.title} />
+                <img src={service.image.src} alt={service.title} />
               </div>
               <h2 className='mb-4 text-2xl font-bold text-gray-800'>
                 {service.title}
