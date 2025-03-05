@@ -2,11 +2,14 @@
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 17:41:58
  * @LastEditors: jxy mr_jxy_steven@163.com
- * @LastEditTime: 2025-03-05 12:24:50
+ * @LastEditTime: 2025-03-05 17:37:21
  * @FilePath: /blxdropship/app/about/page.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import AboutTop from '@/components/About'
+
+import productSourcingImage from '../image/about图片/about里图片中间第一个.jpg'
+import qualityControlImage from '../image/about图片/about里图片中间第二个 (2).jpg'
 export default function About() {
   return (
     <div className='min-h-screen'>
@@ -18,7 +21,7 @@ export default function About() {
               {/* About image placeholder */}
               <div className='rounded-lg aspect-video bg-white/50'>
                 <img
-                  src='https://blxdropship.com/wp-content/uploads/2024/08/istockphoto-2088842280-612x612-1.jpg'
+                  src={productSourcingImage.src}
                   alt='About'
                 />
               </div>
@@ -61,7 +64,7 @@ export default function About() {
               {/* About image placeholder */}
               <div className='rounded-lg aspect-video bg-white/50'>
                 <img
-                  src='https://blxdropship.com/wp-content/uploads/2024/08/istockphoto-2088842280-612x612-1.jpg'
+                  src={qualityControlImage.src}
                   alt='About'
                 />
               </div>
