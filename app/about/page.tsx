@@ -31,7 +31,7 @@ export default function About() {
                 Company Introduction
               </h2>
               <p className='text-lg leading-relaxed text-gray-700'>
-                BiLinXing is a professional supplier specializing in providing
+                HuiLUWan is a professional supplier specializing in providing
                 drop shipping services for cross-border e-commerce platforms.
               </p>
               <p className='text-lg leading-relaxed text-gray-700'>

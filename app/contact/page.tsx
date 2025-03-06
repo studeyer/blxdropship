@@ -1,8 +1,8 @@
 /*
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 17:42:06
- * @LastEditors: caihongtai caihongtai
- * @LastEditTime: 2025-03-06 10:10:12
+ * @LastEditors: jxy mr_jxy_steven@163.com
+ * @LastEditTime: 2025-03-06 15:38:33
  * @FilePath: /blxdropship/app/contact/page.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -85,8 +85,7 @@ export default function Contact() {
                   Address
                 </p>
                 <p className='text-base font-normal text-gray-500 text-[#404040]'>
-                  Huaihai Cross-border Trade Center, Quanshan District, Xuzhou,
-                  Jiangsu, China
+                No.60 guoji rue, guoji village, ville de huancun, district de tongshan, xuzhou, jiangs
                 </p>
               </div>
               <div className='mb-4' style={{ marginTop: '10px' }}>
@@ -94,7 +93,7 @@ export default function Contact() {
                   Email
                 </p>
                 <p className='text-base font-normal text-gray-500 text-[#404040]'>
-                  zhangfan3888@gmail.com
+                lanpangzi6666@gmail.com
                 </p>
               </div>
               <div className='mb-4' style={{ marginTop: '10px' }}>
@@ -102,7 +101,7 @@ export default function Contact() {
                   WhatsApp
                 </p>
                 <p className='text-base font-normal text-gray-500 text-[#404040]'>
-                  +86 137 0522 6238
+                852 44877150
                 </p>
               </div>
               <p className='text-xl font-medium text-gray-600 text-[#191919]'>

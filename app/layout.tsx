@@ -2,7 +2,7 @@
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 16:41:03
  * @LastEditors: jxy mr_jxy_steven@163.com
- * @LastEditTime: 2025-03-05 14:57:48
+ * @LastEditTime: 2025-03-06 15:36:00
  * @FilePath: /blxdropship/src/app/layout.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -39,9 +39,9 @@ export default function RootLayout({
         <footer className='footer-wrap'>
           <div className='container px-4 mx-auto text-center'>
             <div className='mb-4'>
-            Huaihai Cross-border Trade Center, Quanshan District, Xuzhou, Jiangsu, China | WhatsApp: +86 137 0522 6238 | Email: zhangfan3888@gmail.com
+            No.60 guoji rue, guoji village, ville de huancun, district de tongshan, xuzhou, jiangs | WhatsApp: 852 44877150 | Email: lanpangzi6666@gmail.com
             </div>
-            <p>Copyright © 2025 BLX Dropshipping</p>
+            <p>Copyright © 2025 HLW Dropshipping</p>
           </div>
         </footer>
       </body>

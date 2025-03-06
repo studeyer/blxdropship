@@ -29,7 +29,7 @@ export default function Navigation() {
           <img src={logo.src} alt='logo' className='w-12 h-12' />
           <Link href='/home' className='items-center'>
             {/* Logo placeholder */}
-            <div>BLX Dropship</div>
+            <div>HLW Dropship</div>
             <span>Fast fulfillment</span>
           </Link>
         </div>
