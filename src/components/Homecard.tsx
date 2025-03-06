@@ -1,8 +1,8 @@
 /*
  * @Author: caihongtai caihongtai
  * @Date: 2025-01-23 16:41:12
- * @LastEditors: jxy mr_jxy_steven@163.com
- * @LastEditTime: 2025-03-05 21:53:40
+ * @LastEditors: caihongtai caihongtai
+ * @LastEditTime: 2025-03-06 10:03:06
  * @FilePath: /blxdropship/src/components/Services.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -102,7 +102,7 @@ export default function Homecard() {
               ERP system by APP, including EBAY, Shopify, Amazon, WISH, LAZADA,
               Joom, Shopee, Ueeshop, Kilimail, Magento, Aliexpress, MyMALL, etc.
             </p>
-            <button className='px-8 py-3 font-semibold text-white bg-primary rounded-lg hover:bg-primary/90 transition-colors'>
+            <button className='px-8 py-3 font-semibold text-white bg-primary rounded-2xl hover:bg-primary/90 transition-colors'>
               CONTACT US
             </button>
           </div>

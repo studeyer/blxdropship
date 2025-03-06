@@ -6,24 +6,24 @@
  * @FilePath: /blxdropship/src/components/Hero.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
-import '@/styles/jxyStyles.css';
+import '@/styles/jxyStyles.css'
 export default function Hero() {
   return (
     <section className='relative min-h-[600px] flex items-center bg-gradient-to-r from-blue-50 to-blue-100 bg-body-img-home'>
-      <div className='container text-center relative z-10 px-4 mx-auto'>
+      <div className='container relative z-10 px-4 mx-auto text-center'>
         <div className=''>
-        <p className='mb-8 text-xl leading-relaxed text-gray-700 text-white'>
-        Professional · Reliable · Efficient
+          <p className='mb-8 text-xl leading-relaxed text-white text-gray-700'>
+            Professional · Reliable · Efficient
           </p>
-          <h1 className='mb-6 text-5xl font-bold text-white bg-clip-text bg-gradient-to-r '>
-          A Professional 
+          <h1 className='mb-6 text-5xl font-bold text-white bg-clip-text bg-gradient-to-r'>
+            A Professional
           </h1>
-          <h1 className='mb-6 text-5xl font-bold text-white bg-clip-text bg-gradient-to-r '>
-          Dropshipping Supplier
+          <h1 className='mb-6 text-5xl font-bold text-white bg-clip-text bg-gradient-to-r'>
+            Dropshipping Supplier
           </h1>
           <div className='gap-4'>
-            <button className='px-3 py-3 font-semibold text-white bg-red-600 rounded-2xl transition-colors hover:bg-red-500'>
-            Contact Us
+            <button className='px-3 py-3 font-semibold text-white rounded-2xl transition-colors bg-primary hover:bg-primary/90'>
+              Contact Us
             </button>
             {/* <button className='px-8 py-4 font-semibold text-blue-600 rounded-lg border-2 border-blue-600 transition-colors hover:bg-blue-50'>
               Learn More
